@@ -4,10 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     ppr: 'incremental'
-  },
-  lint: {
-    ignoreDuringBuilds: true,
-  },
-};
+  }
+}; //removed the lint configurations.
 
 export default nextConfig;
